@@ -1,0 +1,138 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Business Directory Plugin - Enhanced Categories\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/business-directory-"
+"categories\n"
+"POT-Creation-Date: 2014-06-19 03:25:42+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jorge Torres <jorge@sinapsis.co>\n"
+"Language-Team: Business Directory Plugin <support@businessdirectoryplugin."
+"com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: business-directory-categories.php:41
+msgid ""
+"<div class=\"error\"><p>Business Directory - Enhanced Categories Module "
+"requires Business Directory Plugin >= %s.</p></div>"
+msgstr ""
+"<div class=\"error\"><p>Branchenverzeichnis - Erweitere Kategorien Modul "
+"benötigt das Business Directory Plugin >= %s.</p></div>"
+
+#: business-directory-categories.php:70
+msgctxt "settings"
+msgid "Main Directory Behavior"
+msgstr "Hauptverzeichnis Verhalten"
+
+#: business-directory-categories.php:71
+msgctxt "settings"
+msgid "Settings related to the Improved Categories module."
+msgstr "Einstellungen in Verbindung mit den verbesserten Kategorien Modul"
+
+#: business-directory-categories.php:74
+msgctxt "settings"
+msgid "Operation Mode"
+msgstr "Arbeitsmodus"
+
+#: business-directory-categories.php:79
+msgctxt "settings"
+msgid "Parent + Child categories"
+msgstr "Eltern + Kind Kategorien"
+
+#: business-directory-categories.php:80
+msgctxt "settings"
+msgid "Parent only categories"
+msgstr "Nur Eltern Kategorie"
+
+#: business-directory-categories.php:84
+msgctxt "settings"
+msgid "Only allow listings in child (leaf) categories"
+msgstr "Einträge nur in Kind (Ansichten) Kategorien"
+
+#: business-directory-categories.php:90
+msgctxt "settings"
+msgid "Number of category columns to use"
+msgstr "Sichtbare Anzahl der Kategoriespalten"
+
+#: business-directory-categories.php:93
+msgid ""
+"BD will try to honor this setting as much as possible, but custom CSS or "
+"theme code could prevent this from working."
+msgstr ""
+"BD wird versuchen diese Einstellung zu priorisieren, allgemeine CSS oder "
+"Themecode verhindert diese Konfiguration nicht. "
+
+#: business-directory-categories.php:169
+msgid "-- Select a category --"
+msgstr "-- Wähle eine Kategorie --"
+
+#: category-icons.php:37
+msgid "Category Images"
+msgstr "Kategoriebilder"
+
+#: category-icons.php:38
+msgid "Display the category list using images"
+msgstr "Anzeige der Kategorieliste mit Bild"
+
+#: category-icons.php:39
+msgid "Category image width (px)"
+msgstr "Kategoriebild Breite (px)"
+
+#: category-icons.php:40
+msgid "Category image height (px)"
+msgstr "Kategoriebild Höhe (px)"
+
+#: category-icons.php:118
+msgid "Image"
+msgstr "Bild"
+
+#: category-icons.php:139
+msgid "Change Image"
+msgstr "Bild Ändern"
+
+#: category-icons.php:139
+msgid "Add Image"
+msgstr "Bild Hinzufügen"
+
+#: category-icons.php:209 category-icons.php:243
+msgid "Upload Image"
+msgstr "Bild hochladen"
+
+#: category-icons.php:211
+msgid "Upload"
+msgstr "Hochladen"
+
+#: category-icons.php:221
+msgid "Category Image"
+msgstr "Kategoriebild"
+
+#: category-icons.php:232
+msgid "Delete"
+msgstr "Löschen"
+
+#. Plugin Name of the plugin/theme
+msgid "Business Directory Plugin - Enhanced Categories Module"
+msgstr "Branchenverzeichnis - Erweiterte Kategorien Modul"
+
+#. Plugin URI of the plugin/theme
+msgid "http://www.businessdirectoryplugin.com"
+msgstr "http://www.businessdirectoryplugin.com"
+
+#. Description of the plugin/theme
+msgid ""
+"Category goodies for Business Directory Plugin, including parent/child "
+"hierarchy navigation, images on categories and more."
+msgstr "Kategorieleckereien fürs Branchenverzeichnis Plugin"
+
+#. Author of the plugin/theme
+msgid "D. Rodenbaugh"
+msgstr "D. Rodenbaugh"
+
+#. Author URI of the plugin/theme
+msgid "http://businessdirectoryplugin.com"
+msgstr "http://businessdirectoryplugin.com"
