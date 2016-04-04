@@ -254,8 +254,8 @@ class WPBDP_Plugin {
 
         foreach ( $modules as $module_id => $module_ ) {
             $module_class = $module_[0];
-            $data[ $module_id ] = array( 'installed' => false,
-                                         'version' => null,
+            $data[ $module_id ] = array( 'installed' => true,
+                                         'version' => 3.4,
                                          'required' => $module_[1] );
 
             if ( class_exists( $module_class ) ) {
