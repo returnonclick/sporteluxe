@@ -11,7 +11,6 @@ if ( ! function_exists( 'cb_script_loaders_child' ) ) {
 }
 
 add_action('after_setup_theme','cb_script_loaders_child', 16);
-    
 
 if ( ! function_exists( 'cb_scripts_and_styles_child' ) ) {
        
@@ -29,4 +28,15 @@ if ( ! function_exists( 'cb_scripts_and_styles_child' ) ) {
     }
     
 }
+
+
+    
+
+add_action('wp_enqueue_scripts', 'load_javascript_files');
+
+function load_javascript_files() {
+	wp_register_script('ajax_call_mkto', get_stylesheet_directory_uri() . '/js/icons_directory.js', array('jquery'), true );
+	wp_enqueue_script('ajax_call_mkto');
+}
+
 ?>
