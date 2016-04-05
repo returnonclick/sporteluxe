@@ -25,23 +25,24 @@
 /* --------------------------------------------------------------
 						FULL GRID
 -------------------------------------------------------------- */
-.cb-module-custom {
+ {
 	background: #000 !important;
 	padding: 0px !important;
 	margin: 0px !important;
 	border-top: #000 2px solid !important;
 	border-right: #000 2px solid !important;
 	border-bottom: #000 2px solid !important;
+	font-family: 'Oswald', sans-serif !important;
 }
 
-.cb-module-custom p, .cb-module-custom br {
+ p,  br {
 	display: none !important;
 }
 
 /* --------------------------------------------------------------
 						TITLE
 -------------------------------------------------------------- */
-.cb-module-custom .wpbdp-title-bar{
+ .wpbdp-title-bar{
 	width: 60% !important;
 	float: left !important;
 	text-align: left !important;
@@ -50,13 +51,13 @@
 	padding: 15px 5px 5px 15px !important;
 }
 
-.cb-module-custom .wpbdp-title-bar h3 {
+ .wpbdp-title-bar h3 {
 	font-weight: normal !important;
 	font-size: 12px !important;
 	vertical-align: middle;
 }
 
-.cb-module-custom .wpbdp-title-bar h3 span.green {
+ .wpbdp-title-bar h3 span.green {
 	font-weight: bold !important;
 	color: #41B649;
 	font-size: 16px !important;
@@ -67,7 +68,7 @@
 /* --------------------------------------------------------------
 				SEARCH FORM AND CATEGORIES
 -------------------------------------------------------------- */
-.cb-module-custom .wpbdp-main-page  {
+ .wpbdp-main-page  {
 	width: 60% !important;
 	float: left !important;
 	background: #000000 !important;
@@ -77,22 +78,22 @@
 	letter-spacing: 2px;
 }
 
-.cb-module-custom .wpbdp-main-page .wpbdp-bar {
+ .wpbdp-main-page .wpbdp-bar {
 	padding: 0px 14px 14px 14px !important;
 }
 
-.cb-module-custom .wpbdp-main-page .wpbdp-bar .wpbdp-search-form{
+ .wpbdp-main-page .wpbdp-bar .wpbdp-search-form{
 	width: 100% !important;
 	align: left !important;
 	margin: 0px !important;
 	padding:0px !important;
 }
 
-.cb-module-custom .wpbdp-main-page .wpbdp-bar .wpbdp-search-form .advanced-search-link{
+ .wpbdp-main-page .wpbdp-bar .wpbdp-search-form .advanced-search-link{
 	display: none !important;
 }
 
-.cb-module-custom .wpbdp-main-page .wpbdp-bar .wpbdp-search-form input {
+ .wpbdp-main-page .wpbdp-bar .wpbdp-search-form input {
 	text-transform: uppercase;
 	height: auto !important;
 	display: inline-block !important;
@@ -102,13 +103,13 @@
 	padding: 12px !important;
 }
 
-.cb-module-custom .wpbdp-main-page .wpbdp-bar .wpbdp-search-form #intextbox {
+ .wpbdp-main-page .wpbdp-bar .wpbdp-search-form #intextbox {
 	width: 91% !important;
 	line-height: 1 !important;
 	padding: 10px !important;
 }
 
-.cb-module-custom .wpbdp-main-page .wpbdp-bar .wpbdp-search-form .wpbdp-submit {
+ .wpbdp-main-page .wpbdp-bar .wpbdp-search-form .wpbdp-submit {
 	border: none !important;
 	background-color: #41B649 !important;
 	text-indent: -9999px;                 /* sends the text off-screen */
@@ -117,13 +118,13 @@
 	padding: 14px 18px 13px 18px !important;
 }
 
-.cb-module-custom .wpbdp-main-page .wpbdp-page-content .cf {
+ .wpbdp-main-page .wpbdp-page-content .cf {
 	width: 100% !important;
 	margin: 0px !important;
 	padding: 0px !important;
 }
 
-.cb-module-custom .wpbdp-main-page .wpbdp-page-content .cf .cat-item{
+ .wpbdp-main-page .wpbdp-page-content .cf .cat-item{
 	font-family: 'Oswald', sans-serif !important;
 	font-size: 16px;
 	list-style: none;
@@ -132,19 +133,19 @@
 	text-transform: uppercase;
 }
 
-.cb-module-custom .wpbdp-main-page .wpbdp-page-content .cf  ul li{
+ .wpbdp-main-page .wpbdp-page-content .cf  ul li{
 	padding: 0px 15px 15px 15px !important;
 }
 
-.cb-module-custom .wpbdp-main-page .wpbdp-page-content .cf  ul li:last-child {
+ .wpbdp-main-page .wpbdp-page-content .cf  ul li:last-child {
 	padding-bottom: 0px !important;
 }
 
-.cb-module-custom .wpbdp-main-page .wpbdp-page-content .cf  ul li:last-child a{
+ .wpbdp-main-page .wpbdp-page-content .cf  ul li:last-child a{
 	border-bottom: none !important;
 }
 
-.cb-module-custom .wpbdp-main-page .wpbdp-page-content .cf  ul li a{
+ .wpbdp-main-page .wpbdp-page-content .cf  ul li a{
 	color: #fff;
 	border-bottom: transparent 1px dashed !important;
 	border-bottom-color: #fff !important;
@@ -153,7 +154,7 @@
 	padding: 0 0 15px 0 !important;
 }
 
-.cb-module-custom .wpbdp-main-page .wpbdp-page-content .cf  ul li a:hover{
+ .wpbdp-main-page .wpbdp-page-content .cf  ul li a:hover{
 	text-decoration: none !important;
 	color: #f2f2f2;
 	-webkit-transition: color 0.35s;
@@ -168,7 +169,7 @@
 				SEARCH FORM AND CATEGORIES
 -------------------------------------------------------------- */
 
-.cb-module-custom .wpbdp-main-page .wpbdp-bar, .cb-module-custom .wpbdp-main-page .wpbdp-page-content {
+ .wpbdp-main-page .wpbdp-bar,  .wpbdp-main-page .wpbdp-page-content {
 	width: 100% !important;
 }
 
@@ -176,7 +177,7 @@
 /* --------------------------------------------------------------
 						FEATURES
 -------------------------------------------------------------- */
-.cb-module-custom .wpbdp-category-page{
+ .wpbdp-category-page{
 	width: 40% !important;
 	float: left !important;
 	background: #fff !important;
@@ -186,7 +187,7 @@
 	letter-spacing: 2px;
 }
 
-.cb-module-custom .wpbdp-category-page .category-name {
+ .wpbdp-category-page .category-name {
 	color: #999 !important;
 	padding-bottom: 4px !important;
 	margin-left: 35% !important;
@@ -196,15 +197,15 @@
 	width: 28%;
 }
 
-.cb-module-custom .wpbdp-category-page .wpbdp-view-listings-page{
+ .wpbdp-category-page .wpbdp-view-listings-page{
 	padding: 0 5% !important;
 }
 
-.cb-module-custom .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content  {
+ .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content  {
 	background: #ffffff !important;
 }
 
-.cb-module-custom .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings {
+ .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings {
 	text-decoration: none !important;
 	color: #555 !important;
 	font-family: 'Oswald', sans-serif !important;
@@ -213,16 +214,16 @@
 	padding: 0px !important;
 }
 
-.cb-module-custom .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings  a{
+ .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings  a{
 	text-decoration: none !important;
 	color: #000 !important;
 }
 
-.cb-module-custom .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings p {
+ .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings p {
 	display: inline !important;
 }
 
-.cb-module-custom .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing .listing-thumbnail {
+ .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing .listing-thumbnail {
 	max-height: 60px !important;
 	max-width: 80px !important;
 	min-height: 60px !important;
@@ -233,7 +234,7 @@
 	float: left;
 	
 }
-.cb-module-custom .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing .listing-thumbnail img {
+ .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing .listing-thumbnail img {
 	height: 55px !important;
 	width: 80px !important;
 	object-fit: none; /* Do not scale the image */
@@ -241,29 +242,29 @@
 	margin-bottom: 0px !important;
 }
 
-.cb-module-custom .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing .listing-details {
+ .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing .listing-details {
 	float: left;
 }
 
-.cb-module-custom .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing .listing-details .wpbdp-field-business_website_address,
-.cb-module-custom .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing .listing-details .wpbdp-field-business_phone_number{
+ .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing .listing-details .wpbdp-field-business_website_address,
+ .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing .listing-details .wpbdp-field-business_phone_number{
 	display:none;
 }
 
-.cb-module-custom .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-field-display{
+ .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-field-display{
 
 }
 
-.cb-module-custom .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing{
+ .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing{
 	display: inline-block !important;
 }
 
-.cb-module-custom .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing:last-child {
+ .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing:last-child {
 	padding-bottom: 0px !important;
 }
 
-.cb-module-custom .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing .listing-actions,
-.cb-module-custom .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing .wpbdp-pagination {
+ .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing .listing-actions,
+ .wpbdp-category-page .wpbdp-view-listings-page .wpbdp-page-content .listings .wpbdp-listing .wpbdp-pagination {
 	display: none !important;
 }
 
